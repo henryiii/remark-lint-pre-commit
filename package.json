@@ -1,0 +1,9 @@
+{
+  "name": "remark-lint-pre-commit",
+  "version": "8.0.0",
+  "dependencies": {
+    "remark-lint": "8.0.0",
+    "remark": "^13.0.0",
+    "remark-cli": "^9.0.0"
+  }
+}

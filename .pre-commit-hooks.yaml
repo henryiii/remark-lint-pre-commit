@@ -1,0 +1,7 @@
+- id: remarklint
+  name: remarklint
+  description: Runs remarklint on markdown files.
+  entry: remark
+  language: node
+  types: [markdown]
+  args: ["--frail", "--quiet"]
