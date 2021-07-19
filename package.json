@@ -1,12 +1,12 @@
 {
   "name": "remark-lint-pre-commit",
-  "version": "8.0.0",
-  "scripts": {
-    "remark": "remark"
-  },
+  "version": "0.0.0",
   "dependencies": {
     "remark-lint": "8.0.0",
-    "remark": "^13.0.0",
-    "remark-cli": "^9.0.0"
+    "remark": "*",
+    "remark-cli": "*"
+  },
+  "bin": {
+    "remark": "./node_modules/.bin/remark"
   }
 }
